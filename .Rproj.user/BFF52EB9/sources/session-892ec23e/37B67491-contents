@@ -1,0 +1,63 @@
+
+# Plan de Manejo de Datos
+
+## Fuente de datos
+
+La información proviene de fuentes secundarias oficiales:
+-ENPE-SENDA (2001–2023)
+-Instituto Nacional de Estadísticas (IPC)
+-Proyecciones de población INE
+-Información legislativa de la Ley 21.363
+
+## Unidad de análisis
+La unidad de análisis corresponde a estudiantes menores de 18 años que cursan entre 8° Básico y 4° Medio participantes de la ENPE.
+
+## Almacenamiento
+Las bases originales se almacenarán sin modificaciones en data/raw/
+
+Las bases procesadas se almacenarán en data/processed/
+
+Se utilizará GitHub para control de versiones y OneDrive como respaldo.
+
+## Confidencialidad
+Las bases corresponden a microdatos anonimizados.
+
+No contienen:
+-nombres
+-RUT
+-direcciones
+-establecimientos identificables
+
+El acceso será restringido únicamente al equipo investigador.
+
+## Documentación
+Cada base procesada contará con:
+- fecha de creación
+- responsable
+- script asociado
+- versión
+- Toda variable nueva será documentada en el diccionario de datos.
+
+Git será utilizado para registrar:
+- modificaciones de scripts
+- limpieza de datos
+- análisis
+- manuscrito
+
+Cada cambio importante será registrado mediante commits descriptivos.
+
+# Calidad de datos
+
+## Se realizarán procedimientos de:
+- revisión de valores perdidos
+- detección de duplicados
+- verificación de rangos
+- consistencia temporal
+- revisión de codificaciones
+
+## Reproducibilidad
+Todo el análisis será desarrollado mediante scripts de R.
+No se realizarán modificaciones manuales sobre las bases.
+Cada resultado podrá reproducirse ejecutando los scripts en orden.
+
+
