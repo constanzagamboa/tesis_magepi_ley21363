@@ -1,7 +1,15 @@
 Impacto de la Ley 21.363 en la tendencia de consumo y facilidad de acceso al alcohol en escolares chilenos
 
+<<<<<<< HEAD
 Descripción del proyecto
 
+=======
+<<<<<<< HEAD
+=======
+Descripción del proyecto
+
+>>>>>>> 9bb48e2876defebda509fc2b3d6315d9599b26cf
+>>>>>>> a3d55ff95f8bec82c39815b1a74def6f566576bc
 Este proyecto evalúa el impacto de la Ley 21.363 sobre la prevalencia del consumo de alcohol y la percepción de facilidad de acceso al alcohol en escolares chilenos menores de 18 años, utilizando la serie histórica de la Encuesta Nacional de Drogas en Población Escolar (ENPE-SENDA) entre los años 2001 y 2023.
 
 El estudio utiliza un diseño cuasi experimental de Serie de Tiempo Interrumpida Controlada (Controlled Interrupted Time Series).
