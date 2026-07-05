@@ -1,44 +1,61 @@
-Impacto de la Ley 21.363 en la tendencia de consumo y facilidad de acceso al alcohol en escolares chilenos
+------------------------------------------------------------------------
 
-<<<<<<< HEAD
-Descripción del proyecto
+![](https://kit-digital-uc-prod.s3.amazonaws.com/assets/escudos/logo-uc-01.svg)
 
-=======
-<<<<<<< HEAD
-=======
-Descripción del proyecto
+# Impacto de la Ley 21.363 en la tendencia de consumo y facilidad de acceso al alcohol en escolares chilenos
 
->>>>>>> 9bb48e2876defebda509fc2b3d6315d9599b26cf
->>>>>>> a3d55ff95f8bec82c39815b1a74def6f566576bc
+## Autora: "Constanza Gamboa A. "
+
+------------------------------------------------------------------------
+
+### *Descripción del proyecto*
+
 Este proyecto evalúa el impacto de la Ley 21.363 sobre la prevalencia del consumo de alcohol y la percepción de facilidad de acceso al alcohol en escolares chilenos menores de 18 años, utilizando la serie histórica de la Encuesta Nacional de Drogas en Población Escolar (ENPE-SENDA) entre los años 2001 y 2023.
 
 El estudio utiliza un diseño cuasi experimental de Serie de Tiempo Interrumpida Controlada (Controlled Interrupted Time Series).
 
-Objetivo general
+### *Objetivo general*
 
 Evaluar el impacto de la Ley 21.363 sobre la prevalencia de consumo de alcohol en el último mes y la percepción de facilidad de acceso al alcohol en escolares menores de 18 años.
 
-Pregunta de investigación
+### *Objetivos Específicos*
+
+-   Caracterizar el perfil epidemiológico del consumo de alcohol y la percepción de acceso en la población escolar, comparando los periodos previos y posteriores a la entrada en vigencia de la Ley 21.363 mediante los datos de la serie temporal ENPE-SENDA.
+
+-   Estimar la asociación entre la entrada en vigencia de la Ley y la prevalencia de consumo de último mes, considerando la percepción en la facilidad de acceso y el consumo efectivo de alcohol.
+
+-   Analizar si la asociación entre la ley y el consumo de alcohol difiere sexo y edad, nivel socioeconómico del establecimiento y zona geográfica
+
+### *Pregunta de investigación*
 
 ¿La implementación de la Ley 21.363 se asocia con un cambio en la tendencia del consumo de alcohol y la percepción de facilidad de acceso en escolares chilenos?
 
-🟡 Protocolo de investigación avanzado
+### 🟡 *Estado del proyecto*
 
-- Marco teórico
-- Diseño metodológico
-- Plan de análisis
-- Pendiente obtención y procesamiento de bases ENPE-SENDA
+-   Formulación del problema de investigación
+-   Defiición de objetivos, pregunta de investigación e hipótesis
+-   Revisión bibliográfica y Marco teórico
+-   Diseño metodológico
+-   Plan de análisis
+-   Avance en revisión para aprobación por comité de ética
+-   Pendiente obtención y procesamiento de bases ENPE-SENDA
 
-Estructura del repositorio
+### Estructura del Repositorio
 
-docs/
-Documentación metodológica.
-Plan de manejo de datos
-Descripción de variables
-
-R y outputs/
-Scripts de limpieza, procesamiento y análisis.
-Tablas y figuras generadas.
-
-manuscript/
-Documento de tesis.
++---------------+--------------------------------+
+| Carpeta       | Descripción                    |
++===============+================================+
+| docs/         | -   Documentación metodológica |
+|               |                                |
+|               | -   Plan de manejo de datos    |
+|               |                                |
+|               | -   Descripción de variables   |
++---------------+--------------------------------+
+| Code/         | -   Scripts de limpieza        |
+|               |                                |
+|               | -   procesamiento y análisis   |
++---------------+--------------------------------+
+| Outputs/      | -   Tablas y figuras generadas |
++---------------+--------------------------------+
+| manuscript/   | -   Documento de tesis.        |
++---------------+--------------------------------+
